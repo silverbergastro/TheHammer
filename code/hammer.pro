@@ -15,7 +15,7 @@ if FILE_TEST(infile) eq 0 then begin
 endif
 
 ;begin by setting parameters for any plots we might make along the way.
-SET_PLOT, 'X'
+;SET_PLOT, 'X'
 !P.FONT=1
 !P.THICK=1
 !P.CHARSIZE=1
@@ -30,7 +30,7 @@ HAMMER_PATH = strmid(hammer_path, 0, strpos(hammer_path, 'code/hammer.pro'))
 HAMMER_PATH = HAMMER_PATH[0]
 
 ;*** if HAMMER_PATH auto-find doesn't work, manually set the path in this line: ***
-;HAMMER_PATH = '/Users/janedoe/idl/TheHammer/'
+;HAMMER_PATH = 'C:\\Users\\Steven\ Silverberg\\Github\\TheHammer'
 
 
 ;check to make sure that the user agrees with this path --
